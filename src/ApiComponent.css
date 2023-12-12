@@ -1,0 +1,68 @@
+body{
+ background-image: url('./assets/white-color-background.jpg');
+ height: 100%;
+ 
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ 
+}
+#all{
+    background-color: transparent;
+    
+}
+.card{
+    
+    background-color: transparent;
+}
+.card{
+    justify-content: center;
+}
+.weatherInfo{
+    text-align: center;
+}
+
+.search-bar{
+display: flex;
+opacity: 0.75;
+
+}
+#cityInput{
+    width: 80%;
+}
+#cityInputButton{
+    width: 15%;
+    margin-left: 5px;
+}
+.statusWeather{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.weather-card{
+    margin-top: 50px;
+    
+    
+    
+}
+
+.CityNameStatus{
+    display: flex;
+    justify-content: center;
+}
+.CityNameStatus img{
+    margin-top: -15px;
+}
+
+.forcast-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#cloudstatus{
+    height: 130px;
+    width: 130px;
+}
+.card-content{
+    justify-content: center;
+}
