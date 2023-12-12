@@ -12,7 +12,7 @@
     const [forecastData, setForecastData] = useState(null);
     const [loading, setLoading] = useState(false);
     const [city, setCity] = useState('');
-    const apiKey = 'apikey'; 
+    const apiKey = '2d5ceda6716d42c59c063018231112'; 
 
 
 

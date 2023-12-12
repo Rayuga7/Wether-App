@@ -8,7 +8,7 @@ const WeatherComponent = () => {
     const [weatherData, setWeatherData] = useState(null);
     const [loading, setLoading] = useState(false);
     const [city, setCity] = useState('');
-    const apiKey = 'apikey'; // Replace with your actual API key
+    const apiKey = '89119aa150e6bbf3f797efc8830edbd7'; // Replace with your actual API key
 
     const fetchData = async () => {
         try {
