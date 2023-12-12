@@ -1,4 +1,4 @@
-  // ApiComponent.jsx
+
   import React, { useState, useEffect } from 'react';
   import axios from 'axios';
   import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +12,7 @@
     const [forecastData, setForecastData] = useState(null);
     const [loading, setLoading] = useState(false);
     const [city, setCity] = useState('');
-    const apiKey = '2d5ceda6716d42c59c063018231112'; // Replace with your actual WeatherAPI key
+    const apiKey = '2d5ceda6716d42c59c063018231112'; 
 
 
 
@@ -26,18 +26,18 @@
     const fetchData = async () => {
       try {
         if (city.trim() === '') {
-          // Don't make a request if the city is empty
+          
           return;
         }
 
         setLoading(true);
 
-        // Fetch current weather data
+       
         const currentWeatherResponse = await axios.get(
           `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`
         );
 
-        // Fetch forecast data
+        
         const forecastResponse = await axios.get(
           `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=5`
         );
@@ -80,7 +80,7 @@
         setAlertType('alert-danger');
       }
   
-      // Clear the alert after 2 seconds
+      
       setTimeout(() => {
         setAlertMessage('');
         setAlertType('');

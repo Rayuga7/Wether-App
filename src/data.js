@@ -1,6 +1,5 @@
 const data ={"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":283.4,"feels_like":282.6,"temp_min":282.2,"temp_max":284.14,"pressure":997,"humidity":81},"visibility":10000,"wind":{"speed":7.2,"deg":250},"clouds":{"all":20},"dt":1702270803,"sys":{"type":2,"id":2075535,"country":"GB","sunrise":1702281345,"sunset":1702309898},"timezone":0,"id":2643743,"name":"London","cod":200};
 const response = await axios.get('https://api.openweathermap.org/data/2.5/weather?q=london&appid=89119aa150e6bbf3f797efc8830edbd7');
-89119aa150e6bbf3f797efc8830edbd7
 
 
 {

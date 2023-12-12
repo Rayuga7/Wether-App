@@ -1,4 +1,4 @@
-// App.jsx
+
 import React from 'react';
 import ApiComponent from './ApiComponent'
 import FavoritesComponent from './FavoritesComponent';
@@ -12,7 +12,7 @@ const App = () => {
     <Router>
       <div>
         <Navbar/>
-        {/* Use Routes instead of Switch */}
+        
         <Routes>
           <Route path="/" element={<ApiComponent />} />
           <Route path="/favorites" element={<FavoritesComponent />} />
